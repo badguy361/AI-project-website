@@ -1,6 +1,6 @@
 .menu {
     margin: auto;
-    width: 70%;
+    width: 1000px;
     top: 10px;
     padding: 1%;
     position: relative;
@@ -26,7 +26,7 @@
 }
 
 hr {
-    width: 85%;
+    width: 80%;
     text-shadow: 2px 2px 2px #6e706c;
 }
 
@@ -37,8 +37,7 @@ body {
 }
 
 #welcome {
-    font-size: 250%;
-    width: 85%;
+    font-size: 50px;
     margin: auto;
     top: 30px;
     padding: 80px;
@@ -52,7 +51,7 @@ body {
 
 .list {
     margin: auto;
-    width: 30%;
+    width: 500px;
     color: white;
     font-family: 微軟正黑體, sans-serif;
     font-weight: bolder;
@@ -92,63 +91,60 @@ body {
 
 #firstQ {
     top: 50px;
-    padding: 1%;
-    text-align: left;
-    margin-left: 23%;
+    margin-left:25%;
     position: relative;
 }
 
 #firstQbar {
-    width: 47%;
+    width: 45%;
     top: 50px;
     padding: 3%;
     text-align: left;
-    margin-left: 24%;
+    margin-left: 25%;
     position: relative;
 }
 
 .rightStyle {
-    width: 50%;
     top: 50px;
-    padding: 5%;
+    padding: 1%;
     text-align: right;
-    margin-left: 300px;
+    margin-left: 30%;
     position: relative;
 }
 
 #secondQ {
-    width: 47%;
+    width: 600px;
     top: 50px;
     padding: 1%;
     text-align: left;
-    margin-left: 23%;
+    margin-left: 24%;
     position: relative;
 }
 
 #secondQbar {
-    width: 47%;
+    width: 45%;
     top: 50px;
-    padding: 40px;
+    padding: 3%;
     text-align: left;
-    margin-left: 24%;
+    margin-left: 25%;
     position: relative;
 }
 
 #thirdQ {
     width: 50%;
     top: 50px;
-    padding: 10px;
+    padding: 1%;
     text-align: left;
-    margin-left: 23%;
+    margin-left: 24%;
     position: relative;
 }
 
 #thirdText {
-    width: 53%;
+    width: 50%;
     height: 50px;
     top: 80px;
     text-align: left;
-    margin-left: 24%;
+    margin-left: 25%;
     border-radius: 10px;
     position: relative;
 }
