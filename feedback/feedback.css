@@ -1,0 +1,171 @@
+.menu {
+    margin: auto;
+    width: 70%;
+    top: 10px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+}
+
+.text {
+    flex: 1;
+    font-size: 25px;
+    line-height: 3rem;
+    text-align: center;
+    color: white;
+    font-family: 微軟正黑體, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    text-decoration: none;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px #6e706c;
+}
+
+.text:hover {
+    transform: scale(1.2);
+}
+
+hr {
+    width: 85%;
+    text-shadow: 2px 2px 2px #6e706c;
+}
+
+body {
+    background-color: rgb(32, 32, 53);
+    margin-left: -60px;
+    margin-right: -60px;
+}
+
+#welcome {
+    font-size: 50px;
+    width: 85%;
+    margin: auto;
+    border: 100px;
+    top: 30px;
+    padding: 80px;
+    color: white;
+    font-weight: bold;
+    font-family: 微軟正黑體, sans-serif;
+    position: relative;
+    background-color: rgb(17, 17, 32);
+    text-shadow: 2px 2px 2px #6e706c;
+}
+
+.function {
+    margin: auto;
+    width: 30%;
+    color: white;
+    font-family: 微軟正黑體, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    display: flex;
+}
+
+
+.text2 {
+    flex: 1;
+    font-size: 20px;
+    line-height: 1rem;
+    text-align: center;
+    padding: 3px;
+    color: white;
+    font-family: 微軟正黑體, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    text-decoration: none;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px #6e706c;
+}
+
+.text2:hover {
+    background-color: rgb(222, 91, 12);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: white;
+    font-family: 微軟正黑體, sans-serif;
+    font-weight: bolder;
+    position: relative;
+}
+
+#firstQ {
+    top: 50px;
+    padding: 10px;
+    text-align: left;
+    margin-left: 300px;
+    position: relative;
+}
+
+#firstQbar {
+    width: 47%;
+    top: 50px;
+    padding: 40px;
+    text-align: left;
+    margin-left: 300px;
+    position: relative;
+}
+
+.rightStyle {
+    width: 50%;
+    top: 50px;
+    padding: 10px;
+    text-align: right;
+    margin-left: 300px;
+    position: relative;
+}
+
+#secondQ {
+    width: 50%;
+    top: 50px;
+    padding: 10px;
+    text-align: left;
+    margin-left: 300px;
+    position: relative;
+}
+
+#secondQbar {
+    width: 47%;
+    top: 50px;
+    padding: 40px;
+    text-align: left;
+    margin-left: 300px;
+    position: relative;
+}
+
+#thirdQ {
+    width: 50%;
+    top: 50px;
+    padding: 10px;
+    text-align: left;
+    margin-left: 300px;
+    position: relative;
+}
+
+#thirdText {
+    width: 52%;
+    height: 50px;
+    top: 80px;
+    text-align: left;
+    margin-left: 300px;
+    position: relative;
+}
+
+#btSend {
+    width: 5%;
+    top: 150px;
+    text-align: center;
+    margin-left: 900px;
+    position: relative;
+    font-family: 微軟正黑體, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 300px;
+    border-radius: 10px;
+}
+
+#btSend:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
