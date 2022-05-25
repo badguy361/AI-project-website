@@ -2,15 +2,15 @@
     margin: auto;
     width: 70%;
     top: 10px;
-    padding: 20px;
+    padding: 1%;
     position: relative;
     display: flex;
 }
 
 .text {
     flex: 1;
-    font-size: 25px;
-    line-height: 3rem;
+    font-size: 130%;
+    line-height: 4rem;
     text-align: center;
     color: white;
     font-family: 微軟正黑體, sans-serif;
@@ -32,15 +32,14 @@ hr {
 
 body {
     background-color: rgb(32, 32, 53);
-    margin-left: -60px;
-    margin-right: -60px;
+    margin-left: -5%;
+    margin-right: -5%;
 }
 
 #welcome {
-    font-size: 50px;
+    font-size: 250%;
     width: 85%;
     margin: auto;
-    border: 100px;
     top: 30px;
     padding: 80px;
     color: white;
@@ -51,7 +50,7 @@ body {
     text-shadow: 2px 2px 2px #6e706c;
 }
 
-.function {
+.list {
     margin: auto;
     width: 30%;
     color: white;
@@ -64,7 +63,7 @@ body {
 
 .text2 {
     flex: 1;
-    font-size: 20px;
+    font-size: 100%;
     line-height: 1rem;
     text-align: center;
     padding: 3px;
@@ -93,36 +92,36 @@ body {
 
 #firstQ {
     top: 50px;
-    padding: 10px;
+    padding: 1%;
     text-align: left;
-    margin-left: 300px;
+    margin-left: 23%;
     position: relative;
 }
 
 #firstQbar {
     width: 47%;
     top: 50px;
-    padding: 40px;
+    padding: 3%;
     text-align: left;
-    margin-left: 300px;
+    margin-left: 24%;
     position: relative;
 }
 
 .rightStyle {
     width: 50%;
     top: 50px;
-    padding: 10px;
+    padding: 5%;
     text-align: right;
     margin-left: 300px;
     position: relative;
 }
 
 #secondQ {
-    width: 50%;
+    width: 47%;
     top: 50px;
-    padding: 10px;
+    padding: 1%;
     text-align: left;
-    margin-left: 300px;
+    margin-left: 23%;
     position: relative;
 }
 
@@ -131,7 +130,7 @@ body {
     top: 50px;
     padding: 40px;
     text-align: left;
-    margin-left: 300px;
+    margin-left: 24%;
     position: relative;
 }
 
@@ -140,16 +139,17 @@ body {
     top: 50px;
     padding: 10px;
     text-align: left;
-    margin-left: 300px;
+    margin-left: 23%;
     position: relative;
 }
 
 #thirdText {
-    width: 52%;
+    width: 53%;
     height: 50px;
     top: 80px;
     text-align: left;
-    margin-left: 300px;
+    margin-left: 24%;
+    border-radius: 10px;
     position: relative;
 }
 
@@ -157,15 +157,15 @@ body {
     width: 5%;
     top: 150px;
     text-align: center;
-    margin-left: 900px;
+    margin-left: 70%;
     position: relative;
     font-family: 微軟正黑體, sans-serif;
     font-weight: bolder;
-    margin-bottom: 300px;
+    margin-bottom: 23%;
     border-radius: 10px;
 }
 
 #btSend:hover {
     background-color: #4CAF50;
     color: white;
-  }
+}
