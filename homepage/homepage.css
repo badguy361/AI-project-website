@@ -1,8 +1,8 @@
 .menu {
     margin: auto;
     width: 85%;
-    border: 5px;
-    padding: 10px;
+    top: 10px;
+    padding: 20px;
     position: relative;
     display: flex;
 }
@@ -10,7 +10,6 @@
 .text {
     flex: 1;
     font-size: 25px;
-    height: 100%;
     line-height: 3rem;
     text-align: center;
     color: white;
@@ -18,10 +17,17 @@
     font-weight: bolder;
     position: relative;
     text-decoration: none;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px #6e706c;
+}
+
+.text:hover {
+    transform: scale(1.2);
 }
 
 hr {
     width: 85%;
+    text-shadow: 2px 2px 2px #6e706c;
 }
 
 body {
@@ -42,13 +48,14 @@ body {
     font-family: 微軟正黑體, sans-serif;
     position: relative;
     background-color: rgb(17, 17, 32);
+    text-shadow: 2px 2px 2px #6e706c;
 }
 
 .function {
     margin: auto;
     width: 30%;
     color: white;
-    font-family: fantasy;
+    font-family: 微軟正黑體, sans-serif;
     font-weight: bolder;
     position: relative;
     display: flex;
@@ -60,12 +67,20 @@ body {
     font-size: 20px;
     line-height: 1rem;
     text-align: center;
+    padding: 3px;
     color: white;
-    font-family: fantasy;
+    font-family: 微軟正黑體, sans-serif;
     font-weight: bolder;
     position: relative;
-    text-decoration: none
+    text-decoration: none;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px #6e706c;
 }
+
+.text2:hover {
+    background-color: rgb(222, 91, 12);
+}
+
 
 .sleepData {
     margin: auto;
@@ -73,24 +88,33 @@ body {
     top: 30px;
     padding: 20px;
     color: white;
-    font-family: fantasy;
+    font-family: 微軟正黑體, sans-serif;
     font-weight: bolder;
     position: relative;
     display: flex;
+    text-shadow: 2px 2px 2px #6e706c;
 }
 
 .text3 {
     font-size: 20px;
-    border: 20px;
-    padding: 20px;
-    line-height: 1rem;
+    padding: 10px;
+    border: 10px solid;
+    border-color:rgb(32, 32, 53); 
+    bottom: 1px;
     text-align: left;
     color: white;
-    font-family: fantasy;
+    font-family: 微軟正黑體, sans-serif;
     font-weight: bolder;
     position: relative;
     text-decoration: none;
+    border-radius: 70px;
+    text-shadow: 2px 2px 2px #6e706c;
 }
+
+.text3:hover {
+    background-color: rgb(222, 91, 12);
+}
+
 
 .text4 {
     border: 20px;
@@ -98,7 +122,8 @@ body {
     line-height: 1rem;
     text-align: center;
     color: white;
-    font-family: fantasy;
+    font-family: 微軟正黑體, sans-serif;
     font-weight: bolder;
     position: relative;
+    text-shadow: 2px 2px 2px #6e706c;
 }
