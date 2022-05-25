@@ -1,16 +1,16 @@
 .menu {
     margin: auto;
-    width: 85%;
+    width: 1000px;
     top: 10px;
-    padding: 20px;
+    padding: 1%;
     position: relative;
     display: flex;
 }
 
 .text {
     flex: 1;
-    font-size: 25px;
-    line-height: 3rem;
+    font-size: 130%;
+    line-height: 4rem;
     text-align: center;
     color: white;
     font-family: 微軟正黑體, sans-serif;
@@ -26,21 +26,19 @@
 }
 
 hr {
-    width: 85%;
+    width: 80%;
     text-shadow: 2px 2px 2px #6e706c;
 }
 
 body {
     background-color: rgb(32, 32, 53);
-    margin-left: -20px;
-    margin-right: -20px;
+    margin-left: -5%;
+    margin-right: -5%;
 }
 
 #welcome {
     font-size: 50px;
-    width: 85%;
     margin: auto;
-    border: 100px;
     top: 30px;
     padding: 80px;
     color: white;
@@ -51,9 +49,9 @@ body {
     text-shadow: 2px 2px 2px #6e706c;
 }
 
-.function {
+.list {
     margin: auto;
-    width: 30%;
+    width: 500px;
     color: white;
     font-family: 微軟正黑體, sans-serif;
     font-weight: bolder;
@@ -64,7 +62,7 @@ body {
 
 .text2 {
     flex: 1;
-    font-size: 20px;
+    font-size: 100%;
     line-height: 1rem;
     text-align: center;
     padding: 3px;
