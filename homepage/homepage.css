@@ -9,11 +9,10 @@
 
 .text {
     flex: 1;
-    font-size: 20px;
+    font-size: 25px;
     height: 100%;
     line-height: 3rem;
     text-align: center;
-    width: calc(100%/6);
     color: white;
     font-family: 微軟正黑體, sans-serif;
     font-weight: bolder;
@@ -71,6 +70,7 @@ body {
 .sleepData {
     margin: auto;
     width: 85%;
+    top: 30px;
     padding: 20px;
     color: white;
     font-family: fantasy;
