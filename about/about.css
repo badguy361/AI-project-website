@@ -96,6 +96,18 @@ body {
     text-shadow: 2px 2px 2px #6e706c;
 }
 
+#welcome_text {
+    font-size: 100%;
+    margin-left: -30%;
+    top: 5%;
+    bottom: 30%;
+    color: white;
+    font-weight: bold;
+    font-family: 微軟正黑體, sans-serif;
+    position: relative;
+    text-shadow: 2px 2px 2px #6e706c;
+}
+
 #frame{
     width: 60%;
     border-radius: 50px;
