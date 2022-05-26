@@ -75,7 +75,7 @@ table {
 }
 
 hr {
-    width: 60%;
+    width: 80%;
     text-shadow: 2px 2px 2px #6e706c;
 }
 
@@ -91,89 +91,11 @@ body {
     top: 30px;
     padding: 5%;
     bottom: 30%;
-    padding-left: 20%;
+    padding-left: 36%;
     color: white;
     font-weight: bold;
     font-family: 微軟正黑體, sans-serif;
     position: relative;
     background-color: rgb(17, 17, 32);
-    text-shadow: 2px 2px 2px #6e706c;
-}
-
-.list {
-    margin: auto;
-    width: 500px;
-    color: white;
-    font-family: 微軟正黑體, sans-serif;
-    font-weight: bolder;
-    position: relative;
-    display: flex;
-}
-
-
-.text2 {
-    flex: 1;
-    font-size: 100%;
-    line-height: 1rem;
-    text-align: center;
-    padding: 3px;
-    color: white;
-    font-family: 微軟正黑體, sans-serif;
-    font-weight: bolder;
-    position: relative;
-    text-decoration: none;
-    border-radius: 10px;
-    text-shadow: 2px 2px 2px #6e706c;
-}
-
-.text2:hover {
-    background-color: rgb(222, 91, 12);
-}
-
-
-.sleepData {
-    margin: auto;
-    width: 85%;
-    top: 30px;
-    padding: 20px;
-    padding-left: 20%;
-    color: white;
-    font-family: 微軟正黑體, sans-serif;
-    font-weight: bolder;
-    position: relative;
-    display: flex;
-    text-shadow: 2px 2px 2px #6e706c;
-}
-
-.text3 {
-    font-size: 20px;
-    padding: 10px;
-    border: 10px solid;
-    border-color: rgb(32, 32, 53);
-    bottom: 1px;
-    text-align: left;
-    color: white;
-    font-family: 微軟正黑體, sans-serif;
-    font-weight: bolder;
-    position: relative;
-    text-decoration: none;
-    border-radius: 70px;
-    text-shadow: 2px 2px 2px #6e706c;
-}
-
-.text3:hover {
-    background-color: rgb(222, 91, 12);
-}
-
-
-.text4 {
-    border: 20px;
-    padding: 20px;
-    line-height: 1rem;
-    text-align: center;
-    color: white;
-    font-family: 微軟正黑體, sans-serif;
-    font-weight: bolder;
-    position: relative;
     text-shadow: 2px 2px 2px #6e706c;
 }
